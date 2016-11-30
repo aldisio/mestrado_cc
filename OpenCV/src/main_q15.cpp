@@ -225,13 +225,13 @@ int main()
     minMaxLoc(Filtered,&m,&M);
     if((M-m)>0) {Filtered=Filtered*(1.0/(M-m))-m/(M-m);}        
     
-    imshow("Imagem", frame);
-	imwrite("imagem3.png", frame);
+    imshow("Imagem_Original", frame);
+	imwrite("Imagem_Original.png", frame);
 
-    imshow("Coef", Dst);
-	imwrite("Coef3.jpg", Dst);
+    imshow("Decomposicao", Dst);
+	imwrite("Decomposicao.jpg", Dst);
 
-    imshow("Filtered", Filtered);
-	imwrite("Filtered3.png", Filtered);
+    imshow("Imagem_filtrada", Filtered);
+	imwrite("Imagem_filtrada.png", Filtered);
     waitKey(0);
 }
