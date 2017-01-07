@@ -21,7 +21,7 @@ std::vector< int > valores_regiao;
  //String extention = ".png";
  String URLfull_in = "/home/aldisio/Dropbox/mestrado/PDI/Bases/BancoImagens_TomCinza/";
  //String URLfull_in = "/home/aldisio/Dropbox/mestrado/PDI/Bases/BancoImagens_Binarias/png/";
- String name_image = "cameraman";
+ String name_image = "house";
  //String name_image = "blob";
  String name_image_in = name_image+extention;
 
