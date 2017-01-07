@@ -219,8 +219,8 @@ void CallBackFunc(int event, int x, int y, int flags, void* userdata)
           x_sel = x;
           y_sel = y;
 
-          x_sel = 179;
-          y_sel = 168;
+          //x_sel = 179;
+          //y_sel = 168;
 
 
           std::ostringstream ss;
